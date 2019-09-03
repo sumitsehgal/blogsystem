@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/opensans-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('../fonts/montserrat-medium-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'convergenceregular';
+    src: url('../fonts/convergence-regular-webfont.woff2') format('woff2'),
+         url('../fonts/convergence-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'charteritc_bd_btbold';
+    src: url('../fonts/ichrtrb-webfont.woff2') format('woff2'),
+         url('../fonts/ichrtrb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'dellarobbia_btbold';
+    src: url('../fonts/delarobb-webfont.woff2') format('woff2'),
+         url('../fonts/delarobb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'charteritc_bd_btbold_italic';
+    src: url('../fonts/ichrtrbi-webfont.woff2') format('woff2'),
+         url('../fonts/ichrtrbi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'charteritc_btitalic';
+    src: url('../fonts/ichrtri-webfont.woff2') format('woff2'),
+         url('../fonts/ichrtri-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'canarow00-boldregular';
+    src: url('../fonts/canaro_w00_bold-webfont.woff2') format('woff2'),
+         url('../fonts/canaro_w00_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'canarolight_demo';
+    src: url('../fonts/canaro-lightdemo-webfont.woff2') format('woff2'),
+         url('../fonts/canaro-lightdemo-webfont.woff') format('woff'),
+
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+body{font-family: 'open_sansregular';color: #888481;}
+h1{font-family: 'canarow00-boldregular'; font-size: 32px; margin-top: 0;text-transform:uppercase;}
+h2{font-size: 32px; font-family: 'canarow00-boldregular'; margin-top: 0;text-transform:uppercase; color: #252e37;}
+h3{font-size: 26px; font-family: 'dellarobbia_btbold';margin-top: 0;}
+a:hover{outline: none;text-decoration: none;}
+p{font-size: 16px;font-family: 'canarolight_demo'; color: #757575;}
+
+
+
+.red-btn{
+    color: #fff; 
+    background: #ee1d25;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 0;
+    font-family: 'canarow00-boldregular';
+}
+.red-btn:hover{
+    background: #de1015;
+    color: #fff;
+}
+.white-btn{
+    color: #ee1d25; 
+    background: #fff;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 0;
+    font-family: 'canarow00-boldregular';
+    border: 2px solid #ee1d25;
+}
+.white-btn:hover{
+    background: #de1015;
+    color: #fff;
+}
+
+
+
+/*Index Page CSS*/
+.logo {
+    float: left;
+    width: 30%;
+    position: relative;
+z-index: 4;
+}
+.logo img {
+    max-width: 150px;
+}
+.navigation {
+    float: left;
+    width: 70%;
+    text-align: right;
+}
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.navigation ul li {
+    display: inline-block;
+    padding: 30px 0 0 40px;
+}
+.navigation ul li a {
+    color: #444444;
+    font-size: 15px;
+    font-family: 'canarolight_demo';
+}
+.item-bg1{
+    background: url(../images/banner.jpg) no-repeat center center/cover;
+    padding: 10% 0;
+}
+.banner-sec {
+    position: relative;
+    top: 0px;
+}
+.banner-text {
+    max-width: 500px;
+    background: rgba(255,255,255,.3);
+    padding: 20px 20px;
+    float: right;
+}
+.banner-text h1{
+    color: #fff;
+}
+.banner-text p{
+    color: #fff;
+}
+.red-btn{
+    color: #fff; 
+    background: #ee1d25;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 0;
+    font-family: 'canarow00-boldregular';
+}
+.banner-text .red-btn{
+    margin-top: 10px;
+}
+
+/*About CSS*/
+.about-sec{padding: 60px 0; text-align: center;}
+.about-sec p{margin: 20px 0;}
+h2 span{color: #ee1d25;}
+
+/*Service CSS*/
+.service-sec{background: #ebebeb;}
+.center-img {
+	background: #fff;
+	max-width: 300px;
+	border-radius: 50%;
+	margin: 0 auto;
+	height: 300px;
+	width: 300px;
+	position: relative;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+.center-img img {
+	max-width: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.choice-sec{background: url(../images/choice-bg.jpg) no-repeat center center/cover; padding-top: 60px;}
+.choice-sec h2{color: #fff;}
+.choice-sec h2 span{display: inline-block; width: 100%;}
+.choice-sec ul{padding: 0; margin: 0; list-style: none;}
+.choice-sec ul li{position: relative;color: #fff;font-size: 16px;font-family: 'canarolight_demo'; margin: 25px 0; padding-left: 25px;}
+.choice-sec ul li span{font-family: 'canarow00-boldregular';}
+.choice-sec ul li:before{position: absolute;content: "\e090";font-family: 'Glyphicons Halflings';left: 0; top: 4px; background: red;
+border-radius: 50%;
+height: 20px;
+width: 20px;
+text-align: center;
+padding: 2px 0;
+font-size: 12px;}
+
+.req-form {
+    background: #fff;
+    padding: 20px 30px;
+}
+.req-form {font-family: 'canarolight_demo'; color: #565656; }
+.req-form .form-group{margin: 15px 0;}
+.req-form h3{font-family: 'canarow00-boldregular'; font-size: 24px; color: #252e37;text-align: center;}
+.req-form .form-control{border-radius: 0; border: 1px solid #565656; color: #565656; height: 35px;box-shadow: none;font-family: 'open_sanssemibold';}
+.req-form textarea.form-control{height: auto;}
+.req-form .form-group label span{color: #ee1d25;font-size: 17px;
+top: 5px;
+position: relative;}
+.req-form .btn{width: 100%;margin-top: 15px;}
+
+/*Testimonial CSS*/
+.testi-sec{padding: 60px 0;}
+.testi-bg {background: url(../images/testi-bg.png) no-repeat center center/cover; padding: 5% 0;margin-top: 30px; position: relative;}
+.testi-sec .testi-content {
+	background: #ee1d25;
+	color: #fff;
+	max-width: 500px;
+	padding: 20px 20px;
+	display: inline-block;
+	float: right;
+	text-align: left;
+	margin-top: -70px;
+	z-index: 999999;
+	position: relative;
+}
+.testi-sec .testi-content p{color: #fff;}
+
+
+/*Footer CSS*/
+footer{background: url(../images/foot-bg.jpg) no-repeat center center/cover; padding: 40px 0;}
+.foot-logo img {
+    max-width: 100px;
+}
+footer p{color: #fff;}
+footer h4{font-family: 'canarow00-boldregular';color: #fff;}
+footer ul{padding: 0; margin: 0; list-style: none;}
+footer ul li{position: relative; padding-left: 20px;margin: 10px 0;}
+footer ul li:before{position: absolute; left: 0; content: "\f178";font-family: 'FontAwesome';color: #fff;}
+footer ul li:hover:before{color: #ee1d25;}
+footer ul li a {color: #fff; font-size: 16px;}
+footer ul li a:hover{color: #fff;}
+.call a{font-size: 25px;color: #ee1d25;}
+.email span{color: #ee1d25;}
+.email a{font-family: 'open_sanssemibold';  color: #fff;}
+
+
+.foot-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #5f5f5f;
+    padding-top: 30px;
+}
+.social a {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 4px 10px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 2px;
+}
+.copy{padding: 10px 0;}
+.copy a{color: #ee1d25;}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1199px){
+    
+}
+
+@media screen and (max-width:991px){
+    
+}
+
+
+@media screen and (max-width:767px){
+    
+}
+
+@media screen and (max-width:479px){
+    
+}

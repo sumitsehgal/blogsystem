@@ -1,0 +1,35 @@
+{% extends 'includes/layout.html' %}
+
+{% block content %}
+
+<div class="outer">
+    <div class="row">
+        <div class="col-md-12">
+
+            {% if posts %}
+            {% for post in posts %}
+            <div class="blog-card">
+                <h3>{{post.title}}</h3>
+                <div class="content-head">
+                    <div class="content-aside">Written by <strong>{{post.author}}</strong>  on <strong>11:24 AM</strong> <!-- in <strong>Blogger, Images, Tag </strong> with <strong>29 comments</strong>--></div>
+                    <p>{{post.content|truncatewords:100 }}</p>
+                </div>
+                <div class="content-footer" style="display:none;">
+                        <span class="share">Share:</span>
+                        <ul class="ico">
+                            <li><a href="https://twitter.com/YOUR_USERNAME" rel="nofollow" target="_blank" title="Twitter" class="s-link"><span class="screen-reader-text">Twitter</span></a></li>
+                            <li><a href="https://www.facebook.com/YOUR_USERNAME" rel="nofollow" target="_blank" title="Facebook" class="s-link"><span class="screen-reader-text">Facebook</span></a></li>
+                            <li><a href="https://plus.google.com/" rel="nofollow" target="_blank" title="GooglePlus" class="s-link"><span class="screen-reader-text">GooglePlus</span></a></li>
+                            <li><a href="https://www.pinterest.com/YOUR_USERNAME" rel="nofollow" target="_blank" title="Pinterest" class="s-link"><span class="screen-reader-text">Pinterest</span></a></li>
+                        </ul>
+
+                        <a href="/blog/post/{{post.id}}" class="read-more">Read More</a>
+                </div>
+            </div>
+            {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+{% endblock %}

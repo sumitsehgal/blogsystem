@@ -1,0 +1,30 @@
+{% extends 'includes/layout.html' %}
+
+{% block content %}
+
+<div class="outer">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="blog-card">
+                {% if post %}
+                    <h3>{{post.title}}</h3>
+                    <div class="content-head">
+                        <div class="content-aside">Written by <strong>{{post.author}}</strong>  on <strong>11:24 AM</strong> <!-- in <strong>Blogger, Images, Tag </strong> with <strong>29 comments</strong>--></div>
+                        <p>{{post.content }}</p>
+                    </div>
+                    <div class="content-footer" style="display:none;">
+                        <span class="share">Share:</span>
+                        <ul class="ico">
+                            <li><a href="https://twitter.com/YOUR_USERNAME" rel="nofollow" target="_blank" title="Twitter"><span class="screen-reader-text">Twitter</span></a></li>
+                            <li><a href="https://www.facebook.com/YOUR_USERNAME" rel="nofollow" target="_blank" title="Facebook"><span class="screen-reader-text">Facebook</span></a></li>
+                            <li><a href="https://plus.google.com/" rel="nofollow" target="_blank" title="GooglePlus"><span class="screen-reader-text">GooglePlus</span></a></li>
+                            <li><a href="https://www.pinterest.com/YOUR_USERNAME" rel="nofollow" target="_blank" title="Pinterest"><span class="screen-reader-text">Pinterest</span></a></li>
+                        </ul>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

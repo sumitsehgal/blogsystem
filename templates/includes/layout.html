@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sumit's Blog</title>
+
+
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Dosis:400,500,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
+	<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet'/>
+    <link href="{% static "assets/css/bootstrap.min.css" %}"" rel="stylesheet" type="text/css" />
+    <link href="{% static "assets/css/blog-app.css" %}"" rel="stylesheet" type="text/css" />
+</head>
+<body class="blog-body">
+<div class="container">
+    <header>
+        <h1 class="display-3 text-md-center">Sumit's Blogs</h1>
+        <h2 class="text-md-center">Program or Be Programmed</h2>
+        <nav class="">
+            <ul class="left-nav common-nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="/pages/about-me" target="_blank">About</a></li>
+                <li><a href="https://www.facebook.com/Er.sumitsehgal" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/SumitSe61379170" target="_blank">Twitter</a></li>
+            </ul>
+            <ul class="right-nav common-nav ico">
+                <li><a href="https://twitter.com/SumitSe61379170" rel="nofollow" target="_blank" title="Twitter" class="s-link"><span class="screen-reader-text">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/Er.sumitsehgal" rel="nofollow" target="_blank" title="Facebook" class="s-link"><span class="screen-reader-text">Facebook</span></a></li>
+<!--                <li><a href="https://plus.google.com/" rel="nofollow" target="_blank" title="GooglePlus"><span class="screen-reader-text">GooglePlus</span></a></li>-->
+<!--                <li><a href="https://www.pinterest.com/YOUR_USERNAME" rel="nofollow" target="_blank" title="Pinterest"><span class="screen-reader-text">Pinterest</span></a></li>-->
+                <li><a href="https://www.linkedin.com/in/sumit-sehgal1992/" rel="nofollow" target="_blank" title="Linkedin" class="s-link"><span class="screen-reader-text">Linkedin</span></a></li>
+                <li><a href="https://www.instagram.com/sumit_k_sehgal/" rel="nofollow" target="_blank" title="Instagram" class="s-link"><span class="screen-reader-text">Instagram</span></a></li>
+<!--                <li><a href="https://www.youtube.com/YOUR_USERNAME" rel="nofollow" target="_blank" title="Youtube"><span class="screen-reader-text">Youtube</span></a></li>-->
+<!--                <li><a href="https://github.com/" rel="nofollow" target="_blank" title="Github"><span class="screen-reader-text">Github</span></a></li>-->
+<!--                <li><a href="https://dribbble.com/" rel="nofollow" target="_blank" title="Dribbble"><span class="screen-reader-text">Dribbble</span></a></li>-->
+<!--                <li><a href="https://nordic-btemplates.blogspot.com/feeds/posts/default" target="_blank" title="RSS"><span class="screen-reader-text">RSS</span></a></li>-->
+            </ul>
+        </nav>
+    </header>
+    {% block content %}
+    {% endblock %}
+    <footer>
+        <p>Program or Be Programmed</p>
+        <p>Design By <strong>Sumit Sehgal</strong> | +91 7988929968</p>
+    </footer>
+</div>
+</body>
+</html>

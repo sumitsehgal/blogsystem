@@ -1,0 +1,164 @@
+body,html{
+    padding:0;
+    margin:0;
+}
+body {
+  font-family: 'Amatic SC',sans-serif;
+  background-color: #fff;
+}
+.blog-body header{
+    margin-top: 20px;
+}
+.container{
+max-width:1000px;
+}
+.blog-body h1{
+    font-weight: 800;
+}
+ul.common-nav {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    width:50%;
+}
+ul.left-nav{
+    float:left;
+    width: 75%;
+}
+ul.right-nav{
+    float:right;
+    width: 25%;
+}
+.common-nav li {
+    float: left;
+    position: relative;
+}
+.common-nav li a {
+    font-family: 'Dosis',sans-serif;
+    display: block;
+    padding: 0.2em 0.6em;
+    font-size: 1.2rem;
+    text-decoration: none;
+    line-height: 1.3em;
+    color: #000;
+    color: hsl(0,0%,0%);
+    text-transform: uppercase;
+}
+
+.left-nav li a:hover{
+    color: #0000aa;
+}
+.right-nav li a {
+    padding-left:0.4em;
+    padding-right:0;
+}
+.ico a:before {
+    display: inline-block;
+    padding: 0 5px;
+    vertical-align: top;
+    font-family: 'Fontawesome';
+    font-size: 20px;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    content: '\f0c0';
+}
+
+a.s-link[href*="twitter.com"]::before {
+    content: '\f099';
+}
+a.s-link[href*="facebook.com"]::before {
+    content: '\f09a';
+}
+a.s-link[href*="plus.google.com"]::before {
+    content: '\f0d5';
+}
+a.s-link[href*="pinterest.com"]::before {
+    content: '\f0d2';
+}
+a.s-link[href*="linkedin.com"]::before {
+    content: '\f0e1';
+}
+a.s-link[href*="instagram.com"]::before {
+    content: '\f16d';
+}
+a.s-link[href*="youtube.com"]::before {
+    content: '\f167';
+}
+a.s-link[href*="github.com"]::before {
+    content: '\f09b';
+}
+a.s-link[href*="dribbble.com"]::before {
+    content: '\f17d';
+}
+a[href*="feeds/posts/default"]::before {
+    content: '\f09e';
+}
+.fa-search:before {
+    content: "\f002";
+}
+
+.screen-reader-text {
+    clip: rect(1px,1px,1px,1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    right: 0;
+}
+
+.outer {
+    width: 100%;
+    display: block;
+    float: left;
+    margin-top: 20px;
+}
+.blog-card {
+    padding: 0 4rem;
+    margin-bottom: 20px;
+    border: 3px solid #000;
+}
+.blog-card h3 {
+    margin: 1rem 0 1.5rem;
+    font-size: 3.3125rem;
+    line-height: 1.3em;
+    color: #000;
+    color: hsl(0,0%,0%);
+    font-weight: 800;
+}
+
+.content-head {
+    font-family: 'Dosis',sans-serif;
+}
+.content-aside{
+    margin-bottom:30px;
+}
+.content-head p {text-align: justify;}
+
+.content-footer ul.ico {
+    list-style: none;
+    display: inline-block;
+    padding-left:0;
+    width:50%;
+}
+
+.content-footer li {display: inline;}
+.content-footer {
+    margin-top: 35px;
+    font-family: 'Dosis',sans-serif;
+}
+
+span.share {
+    font-weight: 400;
+    float: left;
+    padding: 2px;
+    margin-right:10px;
+}
+
+a.read-more {
+    color: #000;
+    float: right;
+    margin-right: 5em;
+    text-decoration:underline;
+}
+
+footer {font-family: 'Dosis',serif;text-align: center;font-size: 12px;line-height: 10px;display: block;width: 100%;float: left;margin-top: 25px;border-bottom: 3px solid #000;margin-bottom: 10px;font-weight:500}

@@ -1,0 +1,202 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core2Creations</title>
+<meta name="description" content="m">
+<link href="{% static "assets/home/css/bootstrap.min.css" %}" rel="stylesheet">
+<link href="{% static "assets/home/css/owl.carousel.min.css" %}" rel="stylesheet">
+<link href="{% static "assets/home/css/fontello.css" %}" rel="stylesheet">
+<link href="{% static "assets/home/css/font-awesome.min.css" %}" rel="stylesheet">
+<link href="{% static "assets/home/css/style.css" %}" rel="stylesheet">
+</head>
+<body id="main">
+
+<!--Header Section Start-->
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="{% static "assets/images/logo.png" %}">
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="">Home</a></li>
+<!--                <li><a href="">About Us</a></li>-->
+<!--                <li><a href="">Services</a></li>-->
+<!--                <li><a href="">Courses</a></li>-->
+<!--                <li><a href="">Gallery</a></li>-->
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">India (+91) 7988929968</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!--Header Section Ends-->
+
+<!--Banner Section Start-->
+<section class="banner-sec">
+    <div class="owl-carousel owl-theme">
+        <div class="owl-carousel owl-theme">
+            <div class="item item-bg1" style="background: url({% static "assets/images/banner.jpg" %}) no-repeat center center/cover">
+                <div class="container">
+                    <div class="banner-text">
+                        <h1>Your future is created by what you do today not tomorrow</h1>
+                        <p>We are pioneer for launching new courses that will help students to get placed and excel in their career. </p>
+                        <a href="" class="btn red-btn">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Banner Section Ends-->
+
+<!--About Section Start-->
+<section class="about-sec" style="display:none;">
+    <div class="container">
+        <h2>About <span>Us</span></h2>
+        <p>Vivamus ut augue in leo viverra eleifend. Quisque imperdiet mauris libero, vel malesuada est suscipit quis. Mauris feugiat eros et pellentesque malesuada. Vivamus varius bibendum nunc, sed finibus odio blandit eu. Nullam scelerisque neque sed efficitur luctus. Aenean sollicitudin tortor a metus varius volutpat.</p>
+        <a href="" class="white-btn btn">Explore More</a>
+    </div>
+</section>
+<!--About Section Ends-->
+
+<!--Services Section Start-->
+<section class="about-sec service-sec" style="display:none;">
+    <div class="container">
+        <h2>Our <span>Courses</span></h2>
+        <div class="courses">
+            <div class="center-img">
+                <img src="{% static "assets/images/icon-center.png" %}">
+            </div>
+            <div class="course1">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Choice Section Ends-->
+<section class="choice-sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h2>What makes us <span>a worthy choice?</span></h2>
+                <ul>
+                    <li><span>Our Live Project Training Sessions:</span> Nulla justo ex, fermentum nec massa ac, eleifend libero. Mauris non orci nisl. Donec volutpat nec ipsum in fringilla. Suspendisse urna lorem, commodo a lacus non, accumsan tristique lorem.</li>
+                    <li><span>Our Live Project Training Sessions:</span> Nulla justo ex, fermentum nec massa ac, eleifend libero. Mauris non orci nisl. Donec volutpat nec ipsum in fringilla. Suspendisse urna lorem, commodo a lacus non, accumsan tristique lorem.</li>
+                    <li><span>Our Live Project Training Sessions:</span> Nulla justo ex, fermentum nec massa ac, eleifend libero. Mauris non orci nisl. Donec volutpat nec ipsum in fringilla. Suspendisse urna lorem, commodo a lacus non, accumsan tristique lorem.</li>
+                </ul>
+            </div>
+            <div class="col-md-5">
+                <div class="req-form">
+                    <h3>Request Free Consultation</h3>
+                     <form>
+                      <div class="form-group">
+                        <label for="name">Name <span>*</span></label>
+                        <input type="" class="form-control" id="">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email <span>*</span></label>
+                        <input type="" class="form-control" id="">
+                      </div>
+                      <div class="form-group">
+                        <label for="pwd">Phone Number <span>*</span></label>
+                        <input type="" class="form-control" id="">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Comment <span>*</span></label>
+                        <textarea rows="3" class="form-control"></textarea>
+                      </div>
+                      <button type="submit" class="btn red-btn">Free Consultation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Choice Section Ends-->
+
+<!--Testimonials Section Start-->
+<section class="about-sec testi-sec">
+    <h2>What our students <span>say about us?</span></h2>
+    <div class="testi-bg"></div>
+    <div class="container">
+    <div class="testi-content">
+        <div class="owl-carousel owl-theme">
+            <div class="">
+                <div class="item">
+                    <p>Nunc vitae est nibh. Quisque in odio eget massa interdum pulvinar quis feugiat arcu. Curabitur et convallis tellus, et sodales tortor. Donec ut mauris et nisl aliquet iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer in eros velit. </p>
+                    <h4>Deborah</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!--Testimonials Section Ends-->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="foot-logo">
+                    <img src="{% static "assets/images/logo.png" %}">
+                </div>
+                <p>Quisque non sem sem. Sed libero turpis, faucibus sed pulvinar faucibus, laoreet vitae leo. Mauris non nisl mattis, tempus nulla ut, malesuada tellus. Fusce non porta felis. Pellentesque eu elit in turpis fringilla tincidunt.</p>
+            </div>
+            <div class="col-md-3">
+                <h4>Overview</h4>
+                <ul>
+                    <li><a href="">Web Design</a></li>
+                    <li><a href="">Web Development</a></li>
+                    <li><a href="">Digital Marketing</a></li>
+                    <li><a href="">Math</a></li>
+                    <li><a href="">Science</a></li>
+                    <li><a href="">Personality Development</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Contact Info</h4>
+                <div class="address">
+                    <p>SCO 58-59, Level 3, </p>
+                    <p>Sector 34 A, Chandigarh</p>
+                    <p class="call"><a href="tel:987 654 3210">987 654 3210</a></p>
+                    <p class="email"><span>Email:</span> <a href="mailto:info@core2creations.com">info@core2creations.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="foot-bottom">
+            <div class="social">
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <div class="copy">© 2017 <a href="">Domain.com</a> All rights reserved.</div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="{% static "assets/home/js/jquery.min.js" %}"></script>
+<script src="{% static "assets/home/js/owl.carousel.min.js" %}"></script>
+<script src="{% static "assets/home/js/bootstrap.min.js" %}"></script>
+<script src="{% static "assets/home/js/custom-functions.js" %}"></script>
+</body>
+</html>
