@@ -30,7 +30,7 @@ Flask-Security==1.7.5
 Flask-SQLAlchemy==2.1
 Flask-WTF==0.14.2
 htmlmin==0.1.12
-httplib2==0.11.3
+httplib2==0.18.0
 idna==2.6
 igql==1.1.1
 isort==4.3.21
